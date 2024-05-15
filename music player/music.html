@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Music player - Your favourates are here</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand">
+                <img src="itunes.png" alt="Logo">
+                MUSIC BOX
+            </li>
+            <li>HOME</li>
+            <li>ABOUT</li>
+            <li>SERVICES</li>
+            <li>LOGIN</li>
+        </ul>
+    </nav>
+    <section>
+    <div class="container">
+        <div class="songlist">
+            <h1>Best Of YOUR FAVOURATIES</h1>
+            <div class="songlistplayer">
+                <div class="songItem">
+                    <img src="feeling.jpg" alt="1">
+                    <span>Feeling good</span>
+                    <span class="songlistplay">
+                        <span class="timespan">03:22</span>
+                        <img src="play.png" alt="play">
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="bg.jpg" alt="1">
+                    <span>How we party</span>
+                    <span class="songlistplay">
+                        <span class="timespan">03:08</span>
+                        <img src="play.png" alt="play">
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="bg1.jpg" alt="1">
+                    <span>song 4</span>
+                    <span class="songlistplay">
+                        <span class="timespan">03:22</span>
+                        <img src="play.png" alt="play">
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="itunes.png" alt="1">
+                    <span>song 5</span>
+                    <span class="songlistplay">
+                        <span class="timespan">03:22</span>
+                        <img src="play.png" alt="play">
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="s1.jpg" alt="1">
+                    <span>song 6</span>
+                    <span class="songlistplay">
+                        <span class="timespan">03:22</span>
+                        <img src="play.png" alt="play">
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="s2.jpg" alt="1">
+                    <span>song 7</span>
+                    <span class="songlistplay">
+                        <span class="timespan">03:22</span>
+                        <img src="play.png" alt="play">
+                    </span>
+                </div>
+                </div>
+        </div>
+    </div>
+    </section>
+   <!-- <div class="bottom">
+        <input type="range" name="range" id="myprogressbar" min="0" max="100">
+        <div class="icons">
+            <img src="back.png" alt="back">
+            <img src="play.png" alt="play">
+            <img src="forward.gif" alt="forward">
+        </div>
+    </div>-->
+    <div class="bottom">
+    <audio id="music-player" controls>
+    <source src="path/to/music.mp3" type="audio/mpeg">
+    </audio>
+    <button id="play-button" id="masterPlay">Play</button>
+    <button id="pause-button">Pause</button>
+    <script src="path/to/script.js"></script>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/bf73919f46.js" crossorigin="anonymous"></script>
+    </div>
+</body>
+</html>
